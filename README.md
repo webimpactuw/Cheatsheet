@@ -6,7 +6,20 @@
 
 <a name="html"></a>
 # HTML 
-To-do
+## HTML Setup
+```
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Metadata (ex.: Styles, Scripts importing libraries like Bootstrap, etc.) goes here-->
+    
+  </head>
+  <body>
+    <!--Main content goes here-->
+    
+  </body>
+</html>
+```
 
 <a name="css"></a>
 # CSS
