@@ -1,14 +1,21 @@
-# Cheatsheet
-Your resident cheat-sheet for everything HTML, CSS, Bootstrap, and Git related :)
+# Table of Contents
+1. [HTML](#html)
+2. [CSS](#css)
+3. [Bootstrap](#bootstrap)
+4. [Git](#bootstrap)
 
-## HTML
+<a name="html"></a>
+# HTML 
 To-do
 
-## CSS
+<a name="css"></a>
+# CSS
 To-do
 
-## Bootstrap
+<a name="bootstrap"></a>
+# Bootstrap
 To-do
 
-## Git
+<a name="git"></a>
+# Git
 To-do
