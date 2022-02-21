@@ -59,5 +59,81 @@ To-do
 To-do
 
 <a name="git"></a>
-# Git
-To-do
+# git
+
+## git clone
+Clones a repo onto your local machine.
+Syntax: git clone (repo link)
+Example: 
+```
+git clone git@github.com:AnthonySLuong/Testing.git
+```
+
+## git status
+Returns the status of all working files. Will list all untracked files.
+Syntax: git status
+```
+git status
+```
+
+## git add
+Adds all untracked files to staging area
+Syntax: git add (file1) (file2)
+Can add one or multiple files.
+. add untracked file
+```
+git add .
+```
+
+## git commit
+Commit all tracked file in staging area to repo
+Syntax: git commit -m “(commit message)”
+	Message should be a quick note about the changes made
+Example: 
+```
+git commit -m “First Commit”
+```
+
+## git checkout
+Checks out a commit(Versions) at any point of time. 
+Syntax: git checkout (Branch name)
+Example: 
+```
+git checkout TestBranch
+```
+
+## gt pull
+Pull any new changes made from remote repo
+Syntax: git pull
+Example: 
+```
+git pull
+```
+
+## git push
+Push any new changes from local repo to remote repo
+Syntax: git push
+Example: 
+```
+git push
+```
+
+## Workflow
+Usually you use the commands in these orders when working on any project
+Make sure to always pull before push:
+```sh
+git status                # Check untracked file
+git pull --rebase         # To make sure you are update with the remote repo
+git add .                 # add file to staging area
+git commit -m "(Message)" # Make the commit
+git push                  # Push changes to remote repo
+```
+
+
+
+
+
+
+
+
+
