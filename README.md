@@ -52,11 +52,64 @@ More tags on W3Schools: https://www.w3schools.com/html/default.asp
 
 <a name="css"></a>
 # CSS
-To-do
+## CSS Setup
+You need to do the following to link an external Stylesheet to your project:
+- Create a `.css` file with a choice of your name. For example, `style.css`. 
+- Then, navigate to your `.html` file and add the following to the `<head>` section of the `html` document: `<link rel="stylesheet" href="<style>.css">`. Make sure to replace `<style>` with the name of your css file. 
+- That's it! You have successfully linked an external stylesheet to your html document. 
 
-<a name="bootstrap"></a>
+## General CSS Syntax
+```
+<tag> {
+	[property]: [value];
+}
+```
+
+## Classes
+In HTML: 
+```
+<element class="<Class name>"> </element>
+```
+Replace `<Class name>` with your preferred class name.
+
+In CSS:
+```
+.<Class name> {
+	[property]: [value];
+}
+```
+Classes are not unique. You may have the same class for multiple elements. 
+
+## IDs
+In HTML:
+```
+<element id="<ID name>"> </element>
+```
+Replace `<ID name>` with your preferred ID name.
+
+In CSS:
+```
+#<ID name> {
+	[property]: [value];
+}
+```
+IDs are unique. You may only have ONE element with a particular id. 
+
+## CSS Selectors
+| Selector | Description |
+| -------- | ----------- |
+|```<tag1>, <tag2>, ..., <tagN> {...}```| Selects <b>all</b> tags mentioned |
+|```<parentTag><childTag> {...}```| Selects <b>child</b> tags inside a parent tag |
+|```<parentTag> > <childTag> {...}```| Selects <b>child</b> tags inside a <b>direct parent</b> tag |
+|```<tag>::before {...}```| <b>::before</b> - add content <b>before</b> a tag |
+|```<tag>::after {...}```| <b>::after</b> - add content <b>after</b> a tag |
+|```<tag>:hover {...}```| Style a tag in a specific way when you <b>hover your mouse</b> over it |
+
+
+
 # Bootstrap
-To-do
+You can read more about Bootstrap: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+
 
 <a name="git"></a>
 # git
