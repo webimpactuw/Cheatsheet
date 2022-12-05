@@ -1,8 +1,21 @@
 # Table of Contents
+0. [VSCode](#vscode)
 1. [HTML](#html)
 2. [CSS](#css)
 3. [Bootstrap](#bootstrap)
-4. [Git](#bootstrap)
+4. [JavaScript](#js) 
+5. [Git](#git)
+
+<a name="vscode"></a>
+# VSCode
+## VSCode Setup
+Download the desktop app for VSCode here: https://code.visualstudio.com/download
+
+Documentation on getting started: https://code.visualstudio.com/docs
+
+## Helpful VSCode Tips
+- In an empty `.html` file, you can type an exclamation mark (!) and select the option that comes to automatically generate the barebones template!
+- Get the **Live Server** extension (https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) so that you can open up and refresh HTML files with ease!
 
 <a name="html"></a>
 # HTML 
@@ -50,13 +63,14 @@
 
 More tags on W3Schools: https://www.w3schools.com/html/default.asp
 
+
 <a name="css"></a>
 # CSS
 ## CSS Setup
 You need to do the following to link an external Stylesheet to your project:
 - Create a `.css` file with a choice of your name. For example, `style.css`. 
-- Then, navigate to your `.html` file and add the following to the `<head>` section of the `html` document: `<link rel="stylesheet" href="<style>.css">`. Make sure to replace `<style>` with the name of your css file. 
-- That's it! You have successfully linked an external stylesheet to your html document. 
+- Then, navigate to your `.html` file and add the following to the `<head>` section of the `html` document: `<link rel="stylesheet" href="<name>.css">`. Make sure to replace `<name>` with the name of your css file. 
+- That's it! You have successfully linked an external stylesheet to your html document.
 
 ## General CSS Syntax
 ```
@@ -105,18 +119,46 @@ IDs are unique. You may only have ONE element with a particular id.
 |```<tag>::after {...}```| <b>::after</b> - add content <b>after</b> a tag |
 |```<tag>:hover {...}```| Style a tag in a specific way when you <b>hover your mouse</b> over it |
 
+List of CSS properties: https://www.w3schools.com/w3css/default.asp
 
 
+<a name="bootstrap"></a>
 # Bootstrap
-You can read more about Bootstrap: https://getbootstrap.com/docs/5.1/getting-started/introduction/
+Setup: https://getbootstrap.com/docs/5.2/getting-started/introduction/
+
+On the Bootstrap website, use the left-hand sidebar to find Bootstrap components that you want. This is a very self-guided topic!
+
+
+<a name="js"></a>
+# JavaScript
+## JavaScript Setup
+You need to do the following to link an external JavaScript file to your project:
+- Create a `.js` file with a choice of your name. For example, `script.js`. 
+- Then, navigate to your `.html` file and add the following to the `<head>` section of the `html` document: `<script src="<name>.js">`. Make sure to replace `<name>` with the name of your css file. 
+- That's it! You have successfully linked an external JS file to your html document.
+
+## Basic JS Commands
+| Command | Description |
+| -------- | ----------- |
+|```console.log([thing to be outputted])```| Prints something to the console |
+|```let var = ...;```| Declare a variable |
+|```const var = ...;```| Declare an immutable (non-changeable) variable |
+|```if (condition) { ... } else { ... }```| If-else statement; if `condition` if met, run code in the if-branch; otherwise, run the else-branch |
+|```for (let i = start; i < end; i++) { ... }```| Repeat a certain block of code a certain number of times |
+|```while (condition) { ... }```| Repeat a certain block of code as long as a certain condition is met |
+|```function function_name(param1, param2, ...) { ... }```| Create a reusable block of code |
+
+More stuff on JavaScript: https://www.w3schools.com/js/default.asp
 
 
 <a name="git"></a>
-# git
+# Git
 
 ## git clone
 Clones a repo onto your local machine.
+
 Syntax: git clone (repo link)
+
 Example: 
 ```
 git clone git@github.com:AnthonySLuong/Testing.git
@@ -124,49 +166,53 @@ git clone git@github.com:AnthonySLuong/Testing.git
 
 ## git status
 Returns the status of all working files. Will list all untracked files.
-Syntax: git status
+
+Syntax: `git status`
 ```
 git status
 ```
 
 ## git add
-Adds all untracked files to staging area
-Syntax: git add (file1) (file2)
-Can add one or multiple files.
-. add untracked file
-```
-git add .
-```
+Adds untracked files to staging area.
+
+Syntax: `git add (file1) (file2)`
+
+Adding all untracked files: `git add .`
 
 ## git commit
-Commit all tracked file in staging area to repo
-Syntax: git commit -m “(commit message)”
-	Message should be a quick note about the changes made
+Commit all tracked file in staging area to repo.
+
+Syntax: `git commit -m “(commit message)”`
+
+Message should be a quick note about the changes made.
+
 Example: 
 ```
 git commit -m “First Commit”
 ```
 
 ## git checkout
-Checks out a commit(Versions) at any point of time. 
-Syntax: git checkout (Branch name)
+Checks out a commit (Versions) at any point of time. 
+
+Syntax: `git checkout (Branch name)`
+
 Example: 
 ```
 git checkout TestBranch
 ```
 
-## gt pull
-Pull any new changes made from remote repo
-Syntax: git pull
-Example: 
+## git pull
+Pull any new changes made from remote repo.
+
+Syntax:
 ```
 git pull
 ```
 
 ## git push
-Push any new changes from local repo to remote repo
-Syntax: git push
-Example: 
+Push any new changes from local repo to remote repo.
+
+Syntax:
 ```
 git push
 ```
