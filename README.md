@@ -157,7 +157,7 @@ More stuff on JavaScript: https://www.w3schools.com/js/default.asp
 ## git clone
 Clones a repo onto your local machine.
 
-Syntax: git clone (repo link)
+Syntax: `git clone {repo link}`
 
 Example: 
 ```
@@ -168,9 +168,6 @@ git clone git@github.com:AnthonySLuong/Testing.git
 Returns the status of all working files. Will list all untracked files.
 
 Syntax: `git status`
-```
-git status
-```
 
 ## git add
 Adds untracked files to staging area.
@@ -204,18 +201,12 @@ git checkout TestBranch
 ## git pull
 Pull any new changes made from remote repo.
 
-Syntax:
-```
-git pull
-```
+Syntax: `git pull`
 
 ## git push
 Push any new changes from local repo to remote repo.
 
-Syntax:
-```
-git push
-```
+Syntax: `git push`
 
 ## Workflow
 Usually you use the commands in these orders when working on any project
